@@ -69,8 +69,18 @@ if [ -d /etc/ssh/sshd_config.d ]; then
 fi
 
 # --- Define/atualiza a senha do root, se solicitado ---
+# Usamos /dev/tty explicitamente porque, quando o script é executado via
+# "curl ... | bash", o stdin normal está ocupado pelo conteúdo do próprio
+# script (vindo da pipe), não pelo teclado. Sem isso, o "read" consumiria
+# linhas do script e quebraria a execução.
 echo ""
-read -r -p "Deseja definir a senha do usuário root agora? [s/N] " resp
+resp=""
+if [ -r /dev/tty ]; then
+  read -r -p "Deseja definir a senha do usuário root agora? [s/N] " resp < /dev/tty
+else
+  echo "Nenhum terminal interativo detectado; pulando definição de senha."
+fi
+
 case "$resp" in
   [sS]|[sS][iI][mM])
     passwd root
