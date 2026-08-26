@@ -51,7 +51,7 @@ Substitua `CTID` pelo ID do seu container (ex: `pct shell 100`)
 Agora **dentro do container**, execute:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/shandiprill/scripts/main/install-claude-code.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/shandiprill/scripts/main/setup-claude.sh)"
 ```
 
 **Isso instala:**
