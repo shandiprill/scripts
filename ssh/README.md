@@ -101,4 +101,3 @@ sudo journalctl -u ssh -n 20
 - Verifique permissões: `chmod 700 ~/.ssh && chmod 600 ~/.ssh/*`
 - Teste: `ssh -vv root@seu-container-ip`
 
-For full guide, visit: https://github.com/shandiprill/scripts/blob/main/ssh/TUTORIAL.md

@@ -65,4 +65,3 @@ tmux send-keys -t monitor:logs "tail -f app.log" Enter
 - List keys: `tmux list-keys`
 - All commands: `tmux list-commands`
 
-For full guide, visit: https://github.com/shandiprill/scripts/blob/main/tmux/TUTORIAL.md

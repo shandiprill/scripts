@@ -132,4 +132,3 @@ sudo systemctl start vncserver@1
 - `/etc/systemd/system/vncserver@.service` - Configuração do serviço
 - `~/.vnc/passwd` - Senha criptografada
 
-For full guide, visit: https://github.com/shandiprill/scripts/blob/main/vnc-chrome-lxc/TUTORIAL.md

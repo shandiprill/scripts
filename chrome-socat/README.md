@@ -120,4 +120,3 @@ sudo netstat -tlnp | grep 9223
 - Chrome deve iniciar ANTES de socat
 - Aguarde 2-3 segundos após restart
 
-For full guide, visit: https://github.com/shandiprill/scripts/blob/main/chrome-socat/TUTORIAL.md

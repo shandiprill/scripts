@@ -91,4 +91,3 @@ sudo journalctl -u claude-code.service -n 50
 2. Token precisa ter permissões: `repo`, `workflow`
 3. Reinicie: `systemctl restart claude-code.service`
 
-For full guide, visit: https://github.com/shandiprill/scripts/blob/main/claude/TUTORIAL.md

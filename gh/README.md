@@ -99,4 +99,3 @@ gh pr review 42 --approve
 - Specific: `gh <command> --help`
 - Docs: https://cli.github.com/manual
 
-For full guide, visit: https://github.com/shandiprill/scripts/blob/main/gh/TUTORIAL.md
