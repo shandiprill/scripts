@@ -1,6 +1,13 @@
 # GitHub CLI (gh) - Quick Reference
 
 ## Install
+
+### One-liner
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/shandiprill/scripts/main/gh/setup-gh.sh)"
+```
+
+### Local
 ```bash
 bash setup-gh.sh
 ```

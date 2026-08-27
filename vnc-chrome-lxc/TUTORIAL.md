@@ -1,6 +1,13 @@
 # VNC + Chrome + XFCE (LXC) - Quick Reference
 
 ## Install
+
+### One-liner
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/shandiprill/scripts/main/vnc-chrome-lxc/setup-vnc-chrome-lxc.sh)"
+```
+
+### Local
 ```bash
 bash setup-vnc-chrome-lxc.sh
 ```

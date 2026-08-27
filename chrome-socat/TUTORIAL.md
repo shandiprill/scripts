@@ -1,6 +1,13 @@
 # Chrome Remote Debugging + Socat - Quick Reference
 
 ## Install
+
+### One-liner
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/shandiprill/scripts/main/chrome-socat/setup-chrome-socat.sh)"
+```
+
+### Local
 ```bash
 bash setup-chrome-socat.sh
 ```

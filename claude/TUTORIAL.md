@@ -1,6 +1,13 @@
 # Claude Code Setup - Quick Reference
 
 ## Install
+
+### One-liner
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/shandiprill/scripts/main/claude/setup-claude.sh)"
+```
+
+### Local
 ```bash
 bash setup-claude.sh
 ```

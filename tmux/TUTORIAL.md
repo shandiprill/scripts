@@ -1,6 +1,13 @@
 # Tmux - Quick Reference
 
 ## Install
+
+### One-liner
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/shandiprill/scripts/main/tmux/setup-tmux.sh)"
+```
+
+### Local
 ```bash
 bash setup-tmux.sh
 ```
